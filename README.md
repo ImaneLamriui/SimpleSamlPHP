@@ -1,1 +1,4 @@
-# SimpleSamlPHP
+# SimpleSamlPHP for secure access to web applications.
+### SimpleSAMLphp is an open-source implementation used to provide and to facilitate authentication and authorization services in web environments. Its primary purpose is to simplify and standardize the implementation of Single Sign-On (SSO) in web applications and services, especially in cases where secure and unified access to multiple applications and services is required.
+### There is a new stable release, version, v2.1.1, of SimpleSAMLphp with a different directory structure. The configuration files now come with an additional '.dist' extension, The '.dist' extension indicates that these are distribution files or templates intended for customization. Users should copy these files without the '.dist' extension and modify them according to their specific configuration.
+### The 'www' directory has been replaced with 'public'."
