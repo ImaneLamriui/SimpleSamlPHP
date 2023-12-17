@@ -33,6 +33,7 @@
 ### Check if the database is created using the command 'SHOW DATABASES':
 ###### SHOW DATABASES;
 ### Create registers:
+#### As observed in the used queries, cryptographic functions of MySQL have been employed. AES_ENCRYPT('user1pass','password') encrypts the text using the Advanced Encryption Standard (AES) encryption algorithm with the provided key. AES is an advanced encryption algorithm utilized to safeguard sensitive data in the database:
 ###### INSERT INTO auth.users(username, password) VALUES
 ###### ('user1', AES_ENCRYPT('user1pass','password')),
 ###### ('user2', AES_ENCRYPT('user2pass','password')),
